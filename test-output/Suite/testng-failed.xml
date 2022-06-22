@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Run on EDGE browser(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tech.Topic_05_Multiple_Browser">
+        <methods>
+          <include name="beforClass"/>
+          <include name="afterClass"/>
+          <include name="TC_01_Login_System"/>
+        </methods>
+      </class> <!-- tech.Topic_05_Multiple_Browser -->
+    </classes>
+  </test> <!-- Run on EDGE browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

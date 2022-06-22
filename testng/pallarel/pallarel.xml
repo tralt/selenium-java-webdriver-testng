@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="Suite" parallel="tests" thread-count = "4">
+
+	Rieng 1 thread
+  <test name="First Thread">
+    <classes>
+      <class name="pallarel.Topic_01_First_Class"/>
+      <class name="pallarel.Topic_02_Second_Class"/>
+    </classes>
+    
+  </test> 
+  
+  Rieng 1 thread
+ <test name="Second Thread">
+    <classes>
+      <class name="pallarel.Topic_03_Third_Class"/>
+      <class name="pallarel.Topic_04_Fourth_Class"/>
+    </classes>
+  </test> 
+ 
+</suite>

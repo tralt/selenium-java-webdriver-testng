@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_04_Xpath_Part_III">
+      <class name="loop.Loop_Register">
         <methods>
-          <include name="afterClass"/>
-          <include name="Get_The_Stage"/>
-          <include name="TC_05_Create_A_New_Account"/>
+          <include name="Register"/>
+          <include name="afterMethod"/>
+          <include name="beforMethod"/>
         </methods>
-      </class> <!-- webdriver.Topic_04_Xpath_Part_III -->
+      </class> <!-- loop.Loop_Register -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
